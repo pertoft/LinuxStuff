@@ -1,0 +1,1 @@
+ldapsearch -x -h dc.int.sonofon.dk -D "USER" -w "PASS" -b "dc=domain,dc=dk" "(&(objectCategory=Person)(sAMAccountName=pto))" 
